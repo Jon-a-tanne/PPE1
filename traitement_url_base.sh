@@ -14,7 +14,7 @@ then
 echo "ce programme demande un argument "
 exit
 fi
-FICHIER_URLS =Projet_Dependance/Corpus_Jp/url-dependance_jp$1
+FICHIER_URLS =$1 Projet_Dependance/Corpus_Jp/url-dependance_jp
 OK =0
 NOK =0
 while read -r LINE ;
